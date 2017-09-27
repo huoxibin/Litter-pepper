@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/zhu ce.css"/>
+		<script src="jquery-1.12.4.js"></script>
+		<script src="js/zhu ce.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div class="logo">
+			<div class="logo-usr">
+				<a href="" class="logo-a">
+					<img src="img/logo.gif"/>
+				</a>				
+			</div>			
+		</div>
+		<div class="usrbox">
+			<div class="kuang">
+				<div class="kuang1">
+					<h4 class="h">注册小辣椒用户</h4>
+					<p class="usr-p">
+						小辣椒账户能使用小辣椒手机、小辣椒社区和小辣椒的其他服务。如果您已拥有小辣椒帐户，则可
+						<a href="deng lu.html" class="cur">再次登录</a>
+					</p>
+					
+	 <table align="left" border="0" cellpadding="5" cellspacing="3" width="100%">
+	        <tbody>
+	        <tr>
+	            <td class="td2" align="right" width="20%">手机号:</td>
+	            <td id="phoneArea" width="87%">
+				        <input class="input-g input-g2" id="mobile" size="20"type="text">
+	                    <span class="check_tips" id="mobile_span">输入错误</span>
+	                    <span class="check_tips" id="mobile_sp" style="color:yellowgreen">输入正确</span>
+	                    	
+	            </td>
+	        </tr>
+	        
+            <tr>
+	          <td class="register_text_info" align="right">&nbsp;</td>
+	          <td style="color:#999;" style="display:block;margin:5px 0;">非中国大陆用户输入手机号码时请增加区域前缀，如：台湾：+8869*******，香港：+8526*******</td>
+	        </tr>
+	        
+            <tr>
+              <td class="td2" align="right">验证码:</td>
+                <td id="captchastrArea">
+                       <input id="captcha_str" class="input-g input-g2" type="text">&nbsp;
+                       <img src="img/yanzheng.jpg" id="captcha_img_phone" style="vertical-align: middle;cursor: pointer;" onclick="this.src='captcha_ver.php?'+Math.random()">
+                       <span class="codeChange"><a href="">换一换</a></span> 
+                       <span class="check_tips" id="captcha_str_code"></span>
+                 </td>
+            </tr>
+            
+	        <tr>
+	             <td class="td2" align="right" width="20%">手机验证码:</td>
+	             <td id="codeArea">
+	             	  <input class="input-g input_kuang3"id="verification" type="text"/>
+	                  <input class="mt-lo2 get-co" id="sendRegister" value="发送验证短信" type="button"/>
+	                
+	             </td>
+	        </tr>
+	        
+	        <tr>
+	             <td class="td2" align="right" width="20%">密码:</td>
+	             <td id="pwdArea">
+	                  <input class="input-g input_kuang" id="password" type="password">
+	                  <span class="check_tips" id="p3">输入错误</span>	                    
+	                  <span class="check_tips" id="em" style="color:yellowgreen">输入正确</span>
+	             </td>
+	        </tr>
+	        
+	        <tr>
+	              <td class="td2" align="right" width="20%">确认密码:</td>
+	              <td id="pwdArea2">
+	                     <input class="input-g input_kuang" id="repword" name="confirm_password" type="password">
+	                      <span class="check_tips" id="reem">输入错误</span>
+	                      <span class="check_tips" id="p4" style="color:yellowgreen">输入正确</span>
+	              </td>
+	        </tr>
+	        
+	        <tr>
+	               <td>&nbsp;</td>
+	               <td align="left">
+				          <a href="deng lu.html">
+				            <input class="btn btn-primary portalmargin_top" id="submitBtn" value="确认" name="Submit" type="submit">
+	                      </a>
+	               </td>
+	        </tr>
+	        
+			<tr>
+	                <td>&nbsp;</td>
+	                <td>
+	                	<p class="p-hui">
+	                	        点击“立即注册”，即表示您同意并愿意遵守小辣椒
+	                	    <a href="" class="cor_yellow" style="color:red;">
+	                		         用户协议
+	                	     </a>
+	                	                 和
+	                	     <a href="" class="cor_yellow" style="color:red;">
+	                		        隐私政策
+	                	     </a>
+	                     </p>
+	                </td>
+	        </tr>
+	      </tbody>
+	  </table>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+  <!--  页面下方logo-->
+       
+		 <div class="info">
+		          ©   
+		         <a href="http://www.xiaolajiao.com">
+		         	小辣椒手机官网
+		         </a> 
+		                  粤ICP证B2-20130549号 粤ICP备12053227号-3号
+		         <p>版权所有：深圳语信时代通信设备有限公司 </p>
+		         <img alt="" src="img/footer1.gif"> 
+		 </div>
+		 
+		<div class="believe">
+			<a target="_blank" href=""><img src="img/foo2.png" style="border:none;height:42px;" oncontextmenu="return false;" alt="可信网站"></a>
+			<a target="_blank" href=""><img alt="诚信网站" src="img/foo3.png" style="border:none;"></a> 
+			<a target="_blank" href=""><img alt="诚信网站" src="img/foo4.jpg" style="border:none;"></a> 
+         </div>
+
+	</body>
+</html>

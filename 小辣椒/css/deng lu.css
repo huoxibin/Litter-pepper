@@ -1,0 +1,47 @@
+
+*{margin:0;padding:0;font-family:"宋体",Verdana,Arial;}
+ul,li,ol{list-style:none;}
+a{text-decoration:none;color:black;}
+img{border:none;}
+
+.header{padding-top:25px;height: 75px;background: #ececec;border-bottom: 1px solid #d9d9d9;}
+.logo{width:900px;margin: 0 auto;padding: 0 30px;}
+.logo a{color: #656d78;text-decoration: none;}
+
+.block{width: 950px;margin: 0 auto;padding: 0;}
+.usb{width: 904px;margin: 0 auto;background: url(../img/qing.jpg) 0 80px no-repeat;padding-top: 80px;height: 460px;position: relative;}
+.logo-f{width: 378px;float: right;min-height: 402px;background: url(../img/qing2.png) left top no-repeat;margin-right: 20px;display: inline;}
+.usb-1{width: 287px;float: right;padding: 0 45px;}
+.usb-1 h4{color: #000;height: 22px;line-height: 22px;padding: 30px 0;font-weight: bolder;font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;font-size: 16px;}
+.login-f{width: 285px;height: 68px;}
+#login-in1{color: rgb(196, 196, 196);width: 283px;border: 1px solid #e3e3e3;border-top: 1px solid #cccccc;height: 20px;line-height: 20px;padding: 8px 0;border-radius: 3px;box-shadow: 0 1px 1px white;}
+.error{width: 100%;height: 25px;line-height: 25px;background: url("../img/x.png") no-repeat left 4px;color: #dd5044;float: left;margin: 0;padding-left: 20px;vertical-align: middle;font-size:12px;}
+.login-t{width: 285px;height: 68px;}
+#pas1{color: rgb(196, 196, 196);width: 283px;border: 1px solid #e3e3e3;border-top: 1px solid #cccccc;height: 20px;line-height: 20px;padding: 8px 0;border-radius: 3px;box-shadow: 0 1px 1px white;}
+#pas2{color: rgb(196, 196, 196);width: 283px;border: 1px solid #e3e3e3;border-top: 1px solid #cccccc;height: 20px;line-height: 20px;padding: 8px 0;border-radius: 3px;box-shadow: 0 1px 1px white;}
+.login-th{width: 285px;height: 40px;}
+.left{width: 73%;float: left;height: 65px;}
+#remb{font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;font-size: 14px;line-height: 20px;color: #656d78;background-color: #f5f7fa;margin: 0;padding: 0;}
+.left label{font-size: 14px;font-weight: bold;height: 40px;color: #696969;}
+.right{width: 27%;float: right;margin-left: -3px;text-align: right;height: 65px;}
+.right a{color: #1d8ec8;font-size: 14px;}
+.login-for{width: 285px;height: 68px;}
+.btn{border: medium none;width: 100%;margin-top: -18px;background-color: #d4251d;color: #FFFFFF;display: inline-block;margin-bottom: 0;font-size: 14px;height: 38px;line-height: 38px;text-align: center;cursor: pointer;border-radius: 5px;}
+.login-fix{width: 285px;height: 40px;margin-top: 5px;}
+.left-2{width: 70%;float: left;height: 40px;}
+.left-2 span{font-size: 14px;font-weight: bold;float: left;display: block;width: 110px;height: 35px;color: #696969;}
+.left-2 ul{float: left;width: 78px;height: 18px;}
+.left-2 ul li{float: left;width: 26px;height: 26px;}
+.a1{background-position: 0 0;display: block;width: 18px;height: 18px;overflow: hidden;text-indent: -9999px;background-image: url(../img/qq.png);background-repeat: no-repeat;color: #656d78;text-decoration: none;}
+.a2{background-position:-26px 0;display: block;width: 18px;height: 18px;overflow: hidden;text-indent: -9999px;background-image: url(../img/qq.png);background-repeat: no-repeat;color: #656d78;text-decoration: none;}
+.a3{background-position:-55px 0;display: block;width: 18px;height: 18px;overflow: hidden;text-indent: -9999px;background-image: url(../img/qq.png);background-repeat: no-repeat;color: #656d78;text-decoration: none;}
+.right-2{width: 30%;float: right;margin-left: -3px;text-align: right;height: 40px;}
+.right-2 a{color: #1d8ec8;font-size: 14px;}
+
+  /*   主页下方logo   */
+ 
+.info {color: #434a54;font-size: 12px;text-align: center;padding: 60px 0 30px 0;margin:0 auto;}
+.info a {color: #434a54;text-decoration: none;margin: 0 5px 0 5px;}
+.believe {padding: 0 0 80px;text-align: center;}
+.believe a {margin: 0 3px;}
+a{color: #656d78;text-decoration: none;}
